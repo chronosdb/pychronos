@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13bc017c-558c-4d81-a24f-721b9ce69163" name="Default Changelist" comment="updated collections to use raw api">
+      <change beforePath="$PROJECT_DIR$/release-steps.md" beforeDir="false" afterPath="$PROJECT_DIR$/release-steps.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>_Annotation</find>
+      <find>username=&quot;testuser&quot;, password=&quot;Testpass!1&quot;</find>
+      <find>_annot_api_instance</find>
+      <find>username=&quot;test&quot;, password=&quot;test&quot;</find>
+      <find>format=format</find>
+      <find>fake.word</find>
+      <find>freqstr</find>
+      <find>_AnnotationTarget</find>
+      <find>AnnotationTarget</find>
+      <find>_collection_api_instance</find>
+      <find>_put</find>
+      <find>annotat</find>
+      <find>obj</find>
+      <find>post(</find>
+      <find>self.__space_name__</find>
+      <find>history(</find>
+      <find>history</find>
+      <find>vintages</find>
+      <find>to_date</find>
+      <find>annotate</find>
+      <find>Freq</find>
+      <find>annotate(</find>
+      <find>_vintage</find>
+      <find>save()</find>
+      <find>to_da</find>
+      <find>app_api_raw_timeseries_data_put</find>
+      <find>save</find>
+      <find>api</find>
+      <find>X-</find>
+      <find>auth_sett</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ret</replace>
+      <replace>self</replace>
+      <replace>obj</replace>
+      <replace>get</replace>
+      <replace>from openapi_client</replace>
+      <replace>&quot;xyz&quot;, &quot;p&quot;, &quot;Q&quot;, &quot;int64&quot;</replace>
+      <replace>int</replace>
+      <replace>&quot;int&quot;</replace>
+      <replace>_chronos_port</replace>
+      <replace>_timeseries_api_instance</replace>
+      <replace>_raw_vintage_api_instance</replace>
+      <replace>_configuration</replace>
+      <replace>_vintage_api_instance</replace>
+      <replace>pychronos.space_api_instance</replace>
+      <replace>pychronos._space_api_instance</replace>
+      <replace>pychronos._timeseries_api_instance</replace>
+      <replace>detail</replace>
+      <replace>pychronos.init</replace>
+      <replace>(detail)</replace>
+      <replace>raw_timeseries_data</replace>
+      <replace>ValueError</replace>
+      <replace>if self.__real_start__ is not None:</replace>
+      <replace>if self.__real_start__ == TIME_INF:</replace>
+      <replace>if self.__real_end__ == TIME_INF:</replace>
+      <replace>if self.__real_end__ != TIME_INF:</replace>
+      <replace>PyChronos</replace>
+      <replace>_raw_annot_api_instance</replace>
+      <replace>username=&quot;testuser&quot;, password=&quot;Testpass1!&quot;</replace>
+      <replace>fake.obj_name</replace>
+      <replace>text_format=format</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/pychronos/_client</dir>
+      <dir>$PROJECT_DIR$/pychronos/vendor</dir>
+      <dir>$PROJECT_DIR$/tests</dir>
+      <dir>$PROJECT_DIR$/pychronos</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1eMtd8C0PKmPNKYz2J146IKJXJV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pychronos/vendor" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/pychronos" />
+      <recent name="$PROJECT_DIR$/doc" />
+      <recent name="$PROJECT_DIR$/pychronos/tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests for test_init.InitTest.test_init___ok">
+    <configuration name="Unittests for test_init.InitTest.test_init___ok" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_init.InitTest.test_init___ok&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_collection.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_collection.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_space.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_space.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_timeseries.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_timeseries.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in tests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for test_init.InitTest.test_init___ok" />
+        <item itemvalue="Python tests.Unittests in tests" />
+        <item itemvalue="Python tests.Unittests in test_timeseries.py" />
+        <item itemvalue="Python tests.Unittests in test_collection.py" />
+        <item itemvalue="Python tests.Unittests in test_space.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13bc017c-558c-4d81-a24f-721b9ce69163" name="Default Changelist" comment="" />
+      <created>1571110380719</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571110380719</updated>
+    </task>
+    <task id="LOCAL-00001" summary="webui update">
+      <created>1574154999489</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574154999489</updated>
+    </task>
+    <task id="LOCAL-00002" summary="misc fixes to pychronos; python client">
+      <created>1574155112587</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574155112587</updated>
+    </task>
+    <task id="LOCAL-00003" summary="openapi generator">
+      <created>1574155350548</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574155350548</updated>
+    </task>
+    <task id="LOCAL-00004" summary="openapi generator git exclusions">
+      <created>1574155388009</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574155388009</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update to user api">
+      <created>1574155436292</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574155436292</updated>
+    </task>
+    <task id="LOCAL-00006" summary="bug fix, moving from None to exceptions">
+      <created>1574155461367</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574155461367</updated>
+    </task>
+    <task id="LOCAL-00007" summary="openapi generator, moved yaml to openapi folder">
+      <created>1574155512545</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574155512545</updated>
+    </task>
+    <task id="LOCAL-00008" summary="updated openapi_server">
+      <created>1574155542737</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574155542737</updated>
+    </task>
+    <task id="LOCAL-00009" summary="type fix">
+      <created>1574155567038</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1574155567038</updated>
+    </task>
+    <task id="LOCAL-00010" summary="gcp deployment upgrade">
+      <created>1574155607168</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574155607168</updated>
+    </task>
+    <task id="LOCAL-00011" summary="http unauthorized error throwing">
+      <created>1574155647060</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1574155647060</updated>
+    </task>
+    <task id="LOCAL-00012" summary="a few bugs: missing exception handling in tsobs_vintage.put, more client side tests and fixes">
+      <created>1576169153422</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1576169153422</updated>
+    </task>
+    <task id="LOCAL-00013" summary="fixes to front end, pychronos, and server side, too many to list">
+      <created>1579125874215</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1579125874215</updated>
+    </task>
+    <task id="LOCAL-00014" summary="numerous fixes like update to dtype treatment">
+      <created>1579745512073</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1579745512073</updated>
+    </task>
+    <task id="LOCAL-00015" summary="annotation api fixes">
+      <created>1581702248374</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1581702248378</updated>
+    </task>
+    <task id="LOCAL-00016" summary="some forgotten files">
+      <created>1581702283684</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1581702283684</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fixed missing forbidden cases in webui">
+      <created>1581702327155</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1581702327155</updated>
+    </task>
+    <task id="LOCAL-00018" summary="updated space to use raw api">
+      <created>1583179921337</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1583179921339</updated>
+    </task>
+    <task id="LOCAL-00019" summary="updated collections to use raw api">
+      <created>1583223767255</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1583223767257</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_tests - 2020.03.11 at 18h 04m 18s.xml">
+      <configuration name="Unittests in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_init_InitTest_test_init___ok - 2020.03.18 at 14h 23m 09s.xml">
+      <configuration name="Unittests for test_init.InitTest.test_init___ok" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_init_InitTest_test_init___ok - 2020.03.18 at 14h 26m 55s.xml">
+      <configuration name="Unittests for test_init.InitTest.test_init___ok" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_init_InitTest_test_init___ok - 2020.03.18 at 14h 32m 38s.xml">
+      <configuration name="Unittests for test_init.InitTest.test_init___ok" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_init_InitTest_test_init___ok - 2020.03.18 at 14h 38m 30s.xml">
+      <configuration name="Unittests for test_init.InitTest.test_init___ok" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_init_InitTest_test_init___ok - 2020.03.18 at 15h 20m 02s.xml">
+      <configuration name="Unittests for test_init.InitTest.test_init___ok" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_init_InitTest_test_init___ok - 2020.03.18 at 15h 20m 15s.xml">
+      <configuration name="Unittests for test_init.InitTest.test_init___ok" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_init_InitTest_test_init___ok - 2020.03.18 at 15h 20m 37s.xml">
+      <configuration name="Unittests for test_init.InitTest.test_init___ok" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_init_InitTest_test_init___ok - 2020.03.18 at 15h 22m 19s.xml">
+      <configuration name="Unittests for test_init.InitTest.test_init___ok" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_init_InitTest_test_init___ok - 2020.03.18 at 15h 22m 48s.xml">
+      <configuration name="Unittests for test_init.InitTest.test_init___ok" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="webui update" />
+    <MESSAGE value="misc fixes to pychronos; python client" />
+    <MESSAGE value="openapi generator" />
+    <MESSAGE value="openapi generator git exclusions" />
+    <MESSAGE value="update to user api" />
+    <MESSAGE value="bug fix, moving from None to exceptions" />
+    <MESSAGE value="openapi generator, moved yaml to openapi folder" />
+    <MESSAGE value="updated openapi_server" />
+    <MESSAGE value="type fix" />
+    <MESSAGE value="gcp deployment upgrade" />
+    <MESSAGE value="http unauthorized error throwing" />
+    <MESSAGE value="a few bugs: missing exception handling in tsobs_vintage.put, more client side tests and fixes" />
+    <MESSAGE value="fixes to front end, pychronos, and server side, too many to list" />
+    <MESSAGE value="numerous fixes like update to dtype treatment" />
+    <MESSAGE value="annotation api fixes" />
+    <MESSAGE value="some forgotten files" />
+    <MESSAGE value="fixed missing forbidden cases in webui" />
+    <MESSAGE value="updated space to use raw api" />
+    <MESSAGE value="updated collections to use raw api" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated collections to use raw api" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2276" y="-304" width="670" height="676" key="search.everywhere.popup" timestamp="1594147540865">
+      <screen x="1440" y="-680" width="3008" height="1669" />
+    </state>
+    <state x="2276" y="-304" width="670" height="676" key="search.everywhere.popup/1440.-680.3008.1669/0.23.1440.877@1440.-680.3008.1669" timestamp="1594147540865" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_space.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_space.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_space.py</url>
+          <line>92</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_space.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_init.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_chronos.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_space.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_collection.py</url>
+          <line>108</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_utils_pandas.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_utils_pandas.py</url>
+          <line>159</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_vintage.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pychronos/exceptions.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_vintage.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_space.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_space.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pychronos/collection.py</url>
+          <line>225</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_collection.py</url>
+          <line>244</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_collection.py</url>
+          <line>260</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_collection.py</url>
+          <line>257</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_collection.py</url>
+          <line>318</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pychronos/collection.py</url>
+          <line>526</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_collection.py</url>
+          <line>339</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_space.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pychronos/utils_pandas.py</url>
+          <line>305</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pychronos/utils_pandas.py</url>
+          <line>309</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pychronos/utils_pandas.py</url>
+          <line>204</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pychronos/utils_pandas.py</url>
+          <line>170</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pychronos/utils_pandas.py</url>
+          <line>345</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_chronos.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_annotation.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_collection.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pychronos/collection.py</url>
+          <line>495</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_annotation.py</url>
+          <line>116</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pychronos/collection.py</url>
+          <line>477</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_annotation.py</url>
+          <line>187</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pychronos/collection.py</url>
+          <line>462</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_annotation.py</url>
+          <line>158</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_annotation.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pychronos/timeseries.py</url>
+          <line>479</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_timeseries.py</url>
+          <line>552</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_collection.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_init.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pychronos/vendor/openapi_client/configuration.py</url>
+          <line>258</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pychronos/vendor/openapi_client/api_client.py</url>
+          <line>512</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>del header_params['Authorization']</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.configuration.auth_settings()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.real_start</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.timeseries.tsid</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pandas_time_to_index(self.index)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.index.freqstr</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>annots[0].symbol</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>annots[0]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>annots[0].__symbol__</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+</project>
