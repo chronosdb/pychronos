@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13bc017c-558c-4d81-a24f-721b9ce69163" name="Default Changelist" comment="updated collections to use raw api">
-      <change beforePath="$PROJECT_DIR$/release-steps.md" beforeDir="false" afterPath="$PROJECT_DIR$/release-steps.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-    </list>
+    <list default="true" id="13bc017c-558c-4d81-a24f-721b9ce69163" name="Default Changelist" comment="updated collections to use raw api" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +88,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1eMtd8C0PKmPNKYz2J146IKJXJV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
