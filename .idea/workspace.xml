@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13bc017c-558c-4d81-a24f-721b9ce69163" name="Default Changelist" comment="updated collections to use raw api" />
+    <list default="true" id="13bc017c-558c-4d81-a24f-721b9ce69163" name="Default Changelist" comment="updated collections to use raw api">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MANIFEST.in" beforeDir="false" afterPath="$PROJECT_DIR$/MANIFEST.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/README.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/changelog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/release-steps.md" beforeDir="false" afterPath="$PROJECT_DIR$/release-steps.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -341,38 +349,6 @@
     </task>
     <option name="localTasksCounter" value="20" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="Unittests_in_tests - 2020.03.11 at 18h 04m 18s.xml">
-      <configuration name="Unittests in tests" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_init_InitTest_test_init___ok - 2020.03.18 at 14h 23m 09s.xml">
-      <configuration name="Unittests for test_init.InitTest.test_init___ok" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_init_InitTest_test_init___ok - 2020.03.18 at 14h 26m 55s.xml">
-      <configuration name="Unittests for test_init.InitTest.test_init___ok" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_init_InitTest_test_init___ok - 2020.03.18 at 14h 32m 38s.xml">
-      <configuration name="Unittests for test_init.InitTest.test_init___ok" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_init_InitTest_test_init___ok - 2020.03.18 at 14h 38m 30s.xml">
-      <configuration name="Unittests for test_init.InitTest.test_init___ok" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_init_InitTest_test_init___ok - 2020.03.18 at 15h 20m 02s.xml">
-      <configuration name="Unittests for test_init.InitTest.test_init___ok" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_init_InitTest_test_init___ok - 2020.03.18 at 15h 20m 15s.xml">
-      <configuration name="Unittests for test_init.InitTest.test_init___ok" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_init_InitTest_test_init___ok - 2020.03.18 at 15h 20m 37s.xml">
-      <configuration name="Unittests for test_init.InitTest.test_init___ok" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_init_InitTest_test_init___ok - 2020.03.18 at 15h 22m 19s.xml">
-      <configuration name="Unittests for test_init.InitTest.test_init___ok" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_init_InitTest_test_init___ok - 2020.03.18 at 15h 22m 48s.xml">
-      <configuration name="Unittests for test_init.InitTest.test_init___ok" configurationId="tests" />
-    </history-entry>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="webui update" />

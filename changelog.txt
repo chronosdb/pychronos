@@ -1,11 +1,7 @@
 
-# simplestatistics changelog
+Changelog for pychronos
 
-## 0.1.0
+0.1.0 (2020-07-09)
+------------------
 
-2020-03-03
-
-### Initial Release
-
-- First release
-
+Initial Release

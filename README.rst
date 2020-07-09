@@ -3,6 +3,11 @@ PyChronos
 
 PyChronos is a python client for ChronosDB, databse for business/economic/financial time series.
 
+-  For more info about the ChronosDB go to https://www.chronosdb.io
+-  Also check out the time series analytics platform power by ChronosDB,
+   `tshub <https://www.tshub.io>`__
+-  For documentation go to https://www.chronosdb.io/docs/
+
 Quick start
 ===========
 
@@ -28,7 +33,7 @@ or token
 
 .. code:: python
 
-   cdb = chronosdb.init(token=“hjk2hkj3h21kj13hjk21”)
+   cdb = chronosdb.init(token=“<token>”)
 
 Spaces
 ======
@@ -110,7 +115,7 @@ Time series
 .. code:: python
 
    ts = mycoll.create("ts", freq="Q", dtype="float")
-   # 
+   # or with more information
    ts = mycoll.create("ts", freq="Q", dtype="float", title="My time series", description="This is my time series")
    # JSONifiable attributes can be assigned on creation
    ts = mycoll.create("ts", freq="Q", dtype="float", attributes={'a': 123, 'b': 'abc'})

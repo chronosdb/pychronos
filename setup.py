@@ -14,7 +14,7 @@ from distutils.core import setup
 
 
 NAME = "pychronos"
-VERSION = "0.1.9"
+VERSION = "0.1.0"
 # To install the library, run the following
 #
 # python setup.py install

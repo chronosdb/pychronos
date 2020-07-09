@@ -26,7 +26,7 @@ See more details [here].
   ```
 - generate package
   ```bash
-  python setup.py sdist bdist_wheel
+  python setup.py sdist
   ```
 - Commit all those changes. Have a clean repo.
 - Add/create a git tag
@@ -39,10 +39,8 @@ See more details [here].
   git push --tags origin master
   ```
 - Release testing
-    * `twine upload --repository testpypi dist/*`
-    python -m twine upload --repository testpypi dist/*
-    * `twine upload --repository-url https://test.pypi.org/legacy/ dist/*`
-    * `pip install -i https://testpypi.python.org/pypi simplestatistics`
+    * `python -m twine upload --repository testpypi dist/*`
+    * `pip install -i https://testpypi.python.org/pypi --extra-index-url https://pypi.org/simple pychronos`
 - Release
     - `python setup.py register -r pypi`
     - `python setup.py sdist upload -r pypi`
